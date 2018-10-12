@@ -14,7 +14,7 @@ var yt = document.getElementById("yt").value;
 var output = document.getElementById("output_code");
 var ico = document.getElementById('style_of_icon').value;
 
-var script2 = "<script src='icons.js'></script>";
+var script2 = "<script src='https://github.com/Anjalbinayak43/binayak/blob/master/icons.js'></script>";
 var script1 =  "<script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>";
 var script3 = "<script> var fb =\'"+fb+"\';var tw =\'"+tw+"\';var ins=\'"+ins+"\';var yt=\'"+yt+"\'; var sty = \'"+ico+"\';binayak(fb,tw,ins,yt,sty);</script>";
 output.value =script1+script2+script3;
