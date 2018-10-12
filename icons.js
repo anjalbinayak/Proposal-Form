@@ -1,4 +1,4 @@
-$('head').append('<link rel="stylesheet" href="icon.css">');
+$('head').append('<link rel="stylesheet" href="https://github.com/Anjalbinayak43/binayak/edit/master/icon.css">');
 $('head').append('<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">');
 $('head').append('<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">');
 
