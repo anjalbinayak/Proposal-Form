@@ -22,7 +22,7 @@ favPlaceInput.setAttribute("disabled","disabled");
 Opt.setAttribute("disabled","disabled");
 
 
-var proposal = "<div class='anjal'>Hi <code>" + name + "</code>. You are the one i think who is suitable for  me. I dont know whats your past , I just want to be your future . I want to spend my whole life with you . I promise i will always keep you happy and smiling . I can't promise you to provide expensive Jwellieries and luxuries house . But I promise i will always make you smile , Always give you a warm hug when you feel low ,Support You when Whole world is against You . I Am not only saying . I actually Mean it. Will You marry Me "+ name + "?</div>";
+var proposal = "<div class='anjal'>Hi <code>" + Ayush + "</code>. You are the blessing to  me. I dont care about the future , I just want to be with you in all our Present . I want to spend my whole life with you . I promise i will always keep you happy and smiling as you do to me . I promise to be there with You, Beside You in all the Ups and Downs . Always give you a warm hug when you feel low ,Support You when Whole world is against You . I Am not only saying . I actually Mean it. Will You spend your life with Me "+ Ayush + "?</div>";
 window.scroll({
     top: 2500, 
     left: 0, 
@@ -31,7 +31,7 @@ window.scroll({
   
  document.getElementById('result').innerHTML = proposal; 
  var nxt = document.createElement("input");
- nxt.setAttribute("placeholder","Will You Marry Me?");
+ nxt.setAttribute("placeholder","Will You spend your life with Me?");
  nxt.setAttribute("class","form-control");
  nxt.setAttribute("id","ans1");
 nxtbtn = document.createElement("BUTTON");
@@ -67,7 +67,7 @@ if(val === 'Yes' || val==="yes" || val ==="yEs" || val==="YeS" || val==="yEs"){
 else {
     cba();
 }
-if(document.getElementById('age').value > 17 ){
+if(document.getElementById('age').value > 25 ){
     alert("You are Not Suitable");
     document.getElementById('age').value = "";
 }
@@ -88,7 +88,7 @@ setInterval(abc,500);
      
 document.getElementById("ans1").style.display="none";
 document.getElementById("ans2").style.display ="none";
-     document.getElementById("result").innerHTML = "Lets get Married . Happy Married Life To Us";
+     document.getElementById("result").innerHTML = "Lets Promise to be Together Forever and Love eachother more and more";
  }
 
  else {
